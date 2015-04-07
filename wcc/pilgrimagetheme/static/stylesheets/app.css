@@ -7399,7 +7399,7 @@ th.hide-for-touch {
 /*breadcrumbs*/
 #portal-breadcrumbs {
   font-size: 13px;
-  color: #CCCCCC;
+  color: #333;
   margin-bottom: 20px; }
 
 /*post article*/
@@ -7548,7 +7548,7 @@ footer {
 #content div.documentByLine {
   font-size: 85%;
   display: block;
-  color: #CCCCCC; }
+  color: #333; }
 
 #content img.tileImage, #content div.newsImageContainer {
   float: right;
