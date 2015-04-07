@@ -6,7 +6,7 @@
 
     <!-- -*- extra stuff goes here -*- -->
     <javascript
-            id="++theme++wcc.pilgrimagetheme/js/jquery.js"
+            id="++theme++wccpilgrimageblog.theme/js/jquery.js"
             cacheable="True" compression="none"
             cookable="False" enabled="True"
             expression="request/HTTP_X_THEME_ENABLED | nothing"
@@ -18,7 +18,7 @@
             expression="request/HTTP_X_THEME_ENABLED | nothing"
             inline="False" insert-before="++resource++plone.app.jquery.js"/>
     <javascript
-            id="++theme++wcc.pilgrimagetheme/js/modernizr.js"
+            id="++theme++wccpilgrimageblog.theme/js/modernizr.js"
             cacheable="True" compression="none"
             cookable="False" enabled="True"
             expression="request/HTTP_X_THEME_ENABLED | nothing"

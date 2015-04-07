@@ -66,8 +66,8 @@
     
     <drop theme="/html/body/script | /html/body/link" />
     <after css:theme-children="body">
-        <script src="++theme++wcc.pilgrimagetheme/js/foundation.min.js"></script>
-        <script src="++theme++wcc.pilgrimagetheme/js/app.js"></script>
+        <script src="++theme++wccpilgrimageblog.theme/js/foundation.min.js"></script>
+        <script src="++theme++wccpilgrimageblog.theme/js/app.js"></script>
         <xsl:copy-of css:select="#portal-footer-wrapper > div > script" />
     </after>
         

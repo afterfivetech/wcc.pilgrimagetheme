@@ -3,7 +3,7 @@ import os
 
 version = '0.5'
 
-setup(name='wcc.pilgrimagetheme',
+setup(name='wccpilgrimageblog.theme',
       version=version,
       description="WCC Pilgrimage Theme",
       long_description=open("README.rst").read() + "\n" +
@@ -21,7 +21,7 @@ setup(name='wcc.pilgrimagetheme',
       url='http://github.com/inigoconsulting/',
       license='gpl',
       packages=find_packages(),
-      namespace_packages=['wcc'],
+      namespace_packages=['wccpilgrimageblog'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
@@ -32,7 +32,7 @@ setup(name='wcc.pilgrimagetheme',
           'plone.app.referenceablebehavior',
           'collective.dexteritytextindexer',
           'plone.app.multilingual',
-          'plone.multilingualbehavior',
+          # 'plone.multilingualbehavior',
           'z3c.jbot'
           # -*- Extra requirements: -*-
       ],

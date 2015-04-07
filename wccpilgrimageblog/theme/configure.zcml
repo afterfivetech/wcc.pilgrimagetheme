@@ -7,7 +7,7 @@
     xmlns:grok="http://namespaces.zope.org/grok"
     xmlns:browser="http://namespaces.zope.org/browser"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
-    i18n_domain="wcc.pilgrimagetheme">
+    i18n_domain="wccpilgrimageblog.theme">
 
     <includeDependencies package="." />
     <grok:grok package="." />
@@ -18,10 +18,10 @@
         directory="jbot"
         layer=".interfaces.IProductSpecific" />
 
-    <cmf:registerDirectory name="wcc_pilgrimagetheme"/>
+    <cmf:registerDirectory name="wccpilgrimageblog_theme"/>
 
     <browser:resourceDirectory
-        name="wcc.pilgrimagetheme"
+        name="wccpilgrimageblog.theme"
         directory="static"/>
 
     <!-- -*- extra stuff goes here -*- -->

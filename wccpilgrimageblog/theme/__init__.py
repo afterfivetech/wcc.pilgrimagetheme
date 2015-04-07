@@ -5,21 +5,21 @@ from collective.grok import gs
 from zope.i18nmessageid import MessageFactory
 
 # Set up the i18n message factory for our package
-MessageFactory = MessageFactory('wcc.pilgrimagetheme')
+MessageFactory = MessageFactory('wccpilgrimageblog.theme')
 
 _ = MessageFactory
 
 class HiddenProducts(grok.GlobalUtility):
     """This hides the upgrade profiles from the quick installer tool."""
     implements(INonInstallable)
-    grok.name('wcc.pilgrimagetheme.upgrades')
+    grok.name('wccpilgrimageblog.theme.upgrades')
 
     def getNonInstallableProducts(self):
         return [
-            'wcc.pilgrimagetheme.upgrades',
+            'wccpilgrimageblog.theme.upgrades',
         ]
 
 gs.profile(name=u'default',
-           title=u'wcc.pilgrimagetheme',
+           title=u'wccpilgrimageblog.theme',
            description=_(u''),
            directory='profiles/default')
